@@ -31,7 +31,13 @@ COMPLETENESS, OR USEFULNESS OR ANY INFORMATION, APPARATUS, PRODUCT, OR
 PROCESS DISCLOSED, OR REPRESENTS THAT ITS USE WOULD NOT INFRINGE PRIVATELY
 OWNED RIGHTS.
 
-Authors: Cleve Davis
+The wetland_geoprocessor_open_source.py code is based on the information give above
+and distributed under the LGPL by Cleve Davis. 
+Modifications were made by Cleve Davis after employment with the INL, including:
+- Added feature making source code to work without proprietary libraries (arcpy)
+
+
+Author: Cleve Davis
 
 
 
