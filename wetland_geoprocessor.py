@@ -10,19 +10,19 @@ import arcpy
 import math
 # User Inputs:
 #cfs = float(arcpy.GetParameterAsText(0))
-cfs = 400
+cfs = 200
 # Surface area (sa) must be in meters squared and calculated from a polygon the user makes in IrrigationViz. Example below is based upon acres.
 #acres = float(arcpy.GetParameterAsText(1))
-acres = 50
+acres = 178.57
 sa = 4046.86 * acres
 # Period of time to evaluate
 #days = float(arcpy.GetParameterAsText(2))
-days = 180
+days = 62
 # Advance option
 #no3_data = float(arcpy.GetParameterAsText(3))
 #po4_data = float(arcpy.GetParameterAsText(4))
-no3_data = 5
-po4_data = 0.5
+no3_data = 1.4
+po4_data = 0.3
 # Logic to calculate load reduction based upon user input
 #load_risk = arcpy.GetParameterAsText(5)
 load_risk = None #"low" #input("Enter the load level category (i.e., low, mid, or high of nitrate and phosphorus) of fertilizer pollution: ")

@@ -1,0 +1,6 @@
+{
+  "python.pythonPath": "C:\\Program Files\\ArcGIS\\Pro\\bin\\Python\\envs\\arcgispro-py3\\python.exe",
+  "terminal.integrated.env.windows": {
+    "Path": "C:\\Program Files\\ArcGIS\\Pro\\bin\\Python\\envs\\arcgispro-py3\\Scripts;${env:Path}"
+  }
+}
